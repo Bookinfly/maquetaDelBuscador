@@ -1,0 +1,185 @@
+header{
+  min-height: 90px;
+  z-index: 1000;
+}
+
+strong {
+  font-weight: inherit; /* Quita la negrita */
+}
+
+mark {
+  background: none; /* Quita el fondo amarillo */
+  color: inherit; /* Mantiene el color original del texto */
+}
+
+.cover{
+  object-fit: cover;
+}
+
+.only-big{
+  display: none;
+}
+
+.logo{
+  width: 50px;
+  transition: transform 0.2s; /* Añade una transición suave */
+}
+
+#menuDesktop{
+  display: none;
+}
+
+#menuBars{
+  display: flex;
+}
+
+.logo:hover{
+  transform: scale(1.2); /* Aumenta el tamaño del SVG sin cambiar el ancho */
+}
+
+.main{
+  margin-top: 4rem;
+}
+
+.min-win-personalizado{
+  min-width: 50px!important;
+}
+
+.min-win-personalizado-body{
+  min-width: 375px!important;
+}
+
+.filtros_avanzados{
+  display: none;
+}
+
+.svg-header {
+  width: 45px;
+  transition: transform 0.2s;
+   /* Añade una transición suave */:;
+  -webkit-transition: transform 0.2s;
+  -moz-transition: transform 0.2s;
+  -ms-transition: transform 0.2s;
+  -o-transition: transform 0.2s;
+}
+
+.svg-header:hover {
+  transform: scale(1.2); /* Aumenta el tamaño del SVG sin cambiar el ancho */
+}
+
+.svg{
+  width: 40px;
+  transition: transform 0.2s;
+}
+
+.svg:hover {
+  transform: scale(1.2); /* Aumenta el tamaño del SVG sin cambiar el ancho */
+}
+
+
+.vertical-line{
+  width: 5px;
+  height: 150px;
+  display: inline-block;
+  margin: auto 0px;
+  background-color: aliceblue;
+  border-radius: 40%;
+  -webkit-border-radius: 40%;
+  -moz-border-radius: 40%;
+  -ms-border-radius: 40%;
+  -o-border-radius: 40%;
+}
+
+.footer-nav li{
+  list-style-type: square;
+}
+
+.footer-nav a{
+  text-decoration: none;
+}
+
+.footer-nav a:link {
+  color: #ffc107;
+}
+
+.footer-nav a:visited{
+  color: #0d6efd;
+}
+
+.card {
+  position: static !important; /* O usa "initial" o "unset" según lo que necesites */
+}
+
+hr{
+  position: static!important;
+  z-index: 0!important;
+}
+
+.nav-mobile{
+  width: auto;
+  border-bottom-left-radius: 10px;
+  display: none;
+}
+
+.nav-mobile a {
+  text-decoration: none;
+}
+
+.nav-mobile a:hover{
+  color: #ffc107;
+}
+
+#header-desktop {
+  display: none !important;
+}
+
+@media screen and ( min-width: 768px ) {
+  .logo {
+    width: 70px;
+  }
+  
+  .mt-6 {
+    margin-top: 6rem !important;
+  }
+
+  .h1-plus{
+    font-size: 3rem;
+  }
+
+  .fw-md-bold{
+    font-weight: bold;
+  }
+
+  .f-md-5{
+    font-size: 1.4rem;
+  }
+
+  .only-small{
+    display: none;
+  }
+
+  .only-big{
+    display: inline-block;
+  }
+
+  #header-box{
+    display: none!important;
+  }
+
+  #header-desktop{
+    display: block !important;
+  }
+
+  #header-desktop a{
+    text-decoration: none;
+    transition: transform 0.2s; /* Añade una transición suave */
+  }
+
+  #header-desktop a:hover{
+    color: #ffc107;
+    transform: scale(1.2); /* Aumenta el tamaño del SVG sin cambiar el ancho */
+  }
+
+
+
+} 
